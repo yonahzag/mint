@@ -23,4 +23,6 @@ clear
 echo "loading wifi script"
 mkdir ~/.scripts
 mv wifi.sh ~/.scripts
+mkdir ~/background
+gsettings set org.gnome.desktop.background picture-uri-dark file://~/background/
 echo "please restart terminal for changes to take effect."
